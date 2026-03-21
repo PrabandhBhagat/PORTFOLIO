@@ -566,11 +566,7 @@ function buildSkills(){
     panel.innerHTML=
       '<div class="panel-header">'+
         '<div><div class="panel-icon">'+s.icon+'</div><div class="panel-name">'+s.name+'</div><div class="panel-desc">'+s.desc+'</div></div>'+
-        '<div class="panel-progress">'+
-          '<div class="progress-num">'+s.progress+'%</div>'+
-          '<div class="progress-label">Complete</div>'+
-          '<div class="progress-bar-wrap"><div class="progress-bar" style="width:0" data-w="'+s.progress+'"></div></div>'+
-        '</div>'+
+        
       '</div>'+
       '<div class="panel-days">'+daysHTML+'</div>';
     panelsEl.appendChild(panel);
